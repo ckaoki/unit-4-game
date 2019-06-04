@@ -36,10 +36,15 @@ body{
 
 }
 
-#crystals{
+#crystalsRow{
     background: lightgrey;
     height: 120px;
 }
+
+img.pointer{
+    cursor: pointer;
+}
+
 #currentStatus{
     margin-left: 10px;
 }
