@@ -39,23 +39,26 @@
                 <p>Target Number</p>
                 <p id="targetNumber">0</p>
             </div>
-            <div class="col-md-3" id="gameStats">
-                <p>Game Stats</p>
-                <p id="wins">Wins</p>
-                <p id="losses">Losses</p>
+            <div class="col-md-3" id="scoreBox">
+                <p class="text-center">Your total score is: </p>
+                <p id="score">0</p>
             </div>
         </div>
-        <div class="row" id="currentStatus">
-            <h4>Your total score is: </h4>
-        </div>
-        <div class="row text-center">
-            <p id="score">0</p>
+        <div class="row text-center" >
+            <div class="col-md-3" id="gameStats">
+                <p>Game Stats</p>
+                <p>Wins <span id="wins">0</span></p>
+                <p>Losses <span id="losses">0</span></p>
+            </div>
+            <div class="col-md-3">
+                <p id="gameResult"></p>
+            </div>
         </div>
         <div class="row" id="crystalsRow">
-                <img class="imgCrystal pointer" id="crystal_1" value=0 src="assets/images/amethyst.jpg">    
-                <img class="imgCrystal pointer" id="crystal_2" value=1 src="assets/images/diamond.jpg">
-                <img class="imgCrystal pointer" id="crystal_3" value=2 src="assets/images/emerald.jpg">
-                <img class="imgCrystal pointer" id="crystal_4" value=3 src="assets/images/sapphire.jpg">
+                <img class="crystalImg pointer" id="crystal_1" index=0 src="assets/images/amethyst.jpg">    
+                <img class="crystalImg pointer" id="crystal_2" index=1 src="assets/images/diamond.jpg">
+                <img class="crystalImg pointer" id="crystal_3" index=2 src="assets/images/emerald.jpg">
+                <img class="crystalImg pointer" id="crystal_4" index=3 src="assets/images/sapphire.jpg">
         </div>
     </div>    
 </body>

@@ -17,17 +17,22 @@ body{
     margin-top: 10px;
 }
 
-#target, #gameStats{
+#target, #scoreBox, #gameStats{
     height: 150px;
     font-weight: bold;
+    text-align: center;
 }
 
-#targetNumber{
+#targetNumber, #score{
     font-size: 36pt;
     font-weight: normal;
 }
 
-.imgCrystal{
+#scoreBox{
+    font-weight: bold;
+}
+
+.crystalImg{
     position: relative;
     height: 100px;
     width: 100px;
@@ -45,14 +50,10 @@ img.pointer{
     cursor: pointer;
 }
 
-#currentStatus{
-    margin-left: 10px;
-}
-#score{
-    width: 200px;
-    margin-left: 20px;
-    font-size: 36pt;
-}
+
+
+
+
 
 
 
